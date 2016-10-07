@@ -2,7 +2,7 @@ Ext.define('ScienceLeadership.interims.overrides.InterimsEditorForm', {
     override: 'SlateAdmin.view.progress.interims.EditorForm',
     requires: [
         'Ext.form.field.ComboBox',
-        'Ext.form.field.TextArea'
+        'Ext.form.field.Display'
     ],
 
     initComponent: function() {
@@ -14,6 +14,12 @@ Ext.define('ScienceLeadership.interims.overrides.InterimsEditorForm', {
             fieldLabel: 'Current Grade',
             labelAlign: 'left',
             store: ['D', 'F', 'N/A']
+        },{
+            xtype: 'displayfield',
+            name: 'ArchivedNotes',
+            fieldLabel: 'Comments (archived)',
+            labelAlign: 'top',
+            hidden: true
         }]);
 
         me.callParent(arguments);
