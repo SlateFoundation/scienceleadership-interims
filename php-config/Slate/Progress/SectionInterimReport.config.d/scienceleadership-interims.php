@@ -7,3 +7,9 @@ SectionInterimReport::$fields['Grade'] = [
     'values' => ['D', 'F', 'N/A'],
     'default' => null
 ];
+
+SectionInterimReport::$fields['NotesFormat'] = [
+    'type' => 'enum',
+    'values' => ['markdown', 'html'],
+    'default' => 'markdown'
+];
