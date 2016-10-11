@@ -1,5 +1,5 @@
 Ext.define('Scienceleadership.interims.overrides.InterimsController', {
-    override: 'SlateAdmin.controller.progress.Interims',
+    override: 'SlateAdmin.controller.progress.interims.Report',
 
     init: function() {
         var me = this,
