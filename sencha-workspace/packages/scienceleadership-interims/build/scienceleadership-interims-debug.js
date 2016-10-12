@@ -52,6 +52,9 @@ Ext.define('ScienceLeadership.interims.overrides.InterimsEditorForm', {
                 fieldLabel: 'Current Grade',
                 labelAlign: 'left',
                 store: [
+                    'A',
+                    'B',
+                    'C',
                     'D',
                     'F',
                     'N/A'
