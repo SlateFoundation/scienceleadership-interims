@@ -13,7 +13,7 @@ Ext.define('ScienceLeadership.interims.overrides.InterimsEditorForm', {
             name: 'Grade',
             fieldLabel: 'Current Grade',
             labelAlign: 'left',
-            store: ['D', 'F', 'N/A']
+            store: ['A', 'B', 'C', 'D', 'F', 'N/A']
         },{
             xtype: 'displayfield',
             name: 'ArchivedNotes',
