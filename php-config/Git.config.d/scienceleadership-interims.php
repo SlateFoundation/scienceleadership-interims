@@ -6,6 +6,7 @@ Git::$repositories['scienceleadership-interims'] = [
     'workingBranch' => 'builds/v1',
     'trees' => [
         'php-config/Slate/Progress/SectionInterimReport.config.d/scienceleadership-interims.php',
+        'php-migrations/ScienceLeadership/Interims',
         'sencha-workspace/packages/scienceleadership-interims'
     ]
 ];
