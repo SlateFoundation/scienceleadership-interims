@@ -1,0 +1,17 @@
+[hololens]
+package = "holo/lens-sencha-package"
+
+[hololens.sencha]
+pkg = "scienceleadership-interims"
+
+[hololens.input]
+root = "sencha-workspace"
+files = [
+    "packages/scienceleadership-interims/**",
+    "ext/**",
+    "workspace.json",
+]
+
+[hololens.output]
+root = "webapp-plugin-builds/scienceleadership-interims"
+merge = "replace"
