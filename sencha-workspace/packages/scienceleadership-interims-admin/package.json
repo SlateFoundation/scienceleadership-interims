@@ -1,5 +1,5 @@
 {
-    "name": "scienceleadership-interims",
+    "name": "scienceleadership-interims-admin",
     "sencha": {
         "version": "1.0.0",
         "namespace": "ScienceLeadership.interims",

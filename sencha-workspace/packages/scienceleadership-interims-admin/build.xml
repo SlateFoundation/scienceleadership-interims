@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project name="scienceleadership-interims" default=".help">
+<project name="scienceleadership-interims-admin" default=".help">
 
     <script language="javascript">
         <![CDATA[
